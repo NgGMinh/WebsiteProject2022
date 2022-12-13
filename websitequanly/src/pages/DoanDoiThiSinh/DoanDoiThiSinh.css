@@ -1,0 +1,9 @@
+.themNhomTruong{
+    color: #0d6eFd;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.themNhomTruong:hover{
+   color: #0623a2;
+}

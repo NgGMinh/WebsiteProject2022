@@ -1,0 +1,19 @@
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 997;
+  font-size: 1rem;
+  border: none;
+  outline: #0087f7;
+  background: #0087f7;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+#topBtn:hover {
+  background-color: #0056f7;
+}

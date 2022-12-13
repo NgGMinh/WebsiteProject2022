@@ -1,0 +1,133 @@
+/*//////////////////////////////////////////////////////////////*/
+
+.l-navbar {
+  background-image: url("../../img/Background5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  position: fixed;
+  top: 0;
+  left: -30%;
+  width: var(--nav-width);
+  height: auto;
+  /* background-color: var(--first-color); */
+  padding: 0.8rem 0.2rem 0 0;
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-wrap: nowrap;
+}
+
+.nav_logo,
+.nav_link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 0 0 0 1.2rem;
+}
+
+.nav_logo {
+  margin-bottom: 2rem;
+}
+
+.nav_logo-icon {
+  font-size: 1.25rem;
+  color: var(--white-color);
+}
+
+.nav_logo-name {
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+.nav_link {
+  position: relative;
+  color: var(--first-color-light);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav_link:hover {
+  color: var(--white-color);
+}
+
+.nav_link:hover ::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 2px;
+  height: 32px;
+  background-color: var(--white-color);
+}
+
+.nav_icon {
+  font-size: 1.25rem;
+}
+
+.nav_name{
+  font-size: 1.04rem;
+  font-weight: 400;
+}
+
+.shows {
+  left: 0;
+  width: calc(var(--nav-width) + var(--add-show-width));
+  height: 100vh;
+  transition: 0.3s;
+}
+
+.expandArrow {
+  position: absolute;
+  left: calc(var(--nav-width) + 183px);
+}
+
+.actives {
+  color: var(--white-color);
+}
+
+.actives-submenu {
+  color: var(--white-color);
+}
+
+.actives::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 32px;
+  background-color: var(--white-color);
+}
+
+.nav_link:hover .expandArrow::before {
+  width: 0px;
+  height: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .l-navbar {
+    left: 0;
+    padding: 1.32rem 0.3rem 0 0;
+    height: 100%;
+  }
+
+  .expandArrow {
+    position: absolute;
+    /* left: 0px; */
+  }
+
+  .shows {
+    width: calc(var(--nav-width) + var(--add-show-width));
+  }
+}

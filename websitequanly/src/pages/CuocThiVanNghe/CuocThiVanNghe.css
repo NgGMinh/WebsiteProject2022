@@ -1,0 +1,67 @@
+.newContest {
+  flex: 4;
+}
+
+.addContestForm {
+  margin-top: 10px;
+}
+
+.addContestItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addContestItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addContestItem > input {
+  padding: 10px;
+}
+
+.addContestItem > select {
+  padding: 10px;
+}
+
+.addContestButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rdw-dropdown-selectedtext {
+  text-decoration: none;
+  color: black;
+}
+
+.modal-width-70 {
+  width: 70vw; /* Occupy the 90% of the screen width */
+  max-width: 70vw;
+}
+
+.modal-width-80 {
+  width: 80vw; /* Occupy the 90% of the screen width */
+  max-width: 80vw;
+}
+
+.rdw-image-modal,
+.rdw-emoji-modal,
+.rdw-embedded-modal {
+  left: auto;
+  right: 5px;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  opacity: 0.65;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}

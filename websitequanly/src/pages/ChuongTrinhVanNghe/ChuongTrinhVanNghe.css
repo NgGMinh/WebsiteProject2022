@@ -1,0 +1,68 @@
+.newPerformance {
+  flex: 4;
+}
+
+.addPerformanceForm {
+  margin-top: 10px;
+}
+
+.addPerformanceItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addPerformanceItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addPerformanceItem > input {
+  padding: 10px;
+}
+
+.addPerformanceItem > select {
+  padding: 10px;
+}
+
+.addPerformanceButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rdw-dropdown-selectedtext {
+  text-decoration: none;
+  color: black;
+}
+
+.modal-width {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+
+.rdw-image-modal,
+.rdw-emoji-modal,
+.rdw-embedded-modal {
+  left: auto;
+  right: 5px;
+}
+
+.ck-content{
+  min-height: 200px;
+}
+
+.css-19qh8xo-MuiInputBase-input-MuiOutlinedInput-input:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.css-hdw1oc{
+  float: right !important;
+}

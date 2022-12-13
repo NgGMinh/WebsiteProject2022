@@ -1,0 +1,19 @@
+.link-home {
+  border: 1px solid rgb(71, 108, 226);
+  color: white;
+  background-color: rgb(71, 108, 226);
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 60px;
+}
+
+.link-home:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.not-found {
+  padding-top: 10px;
+  width: 100%;
+  height: 50vh;
+}

@@ -1,0 +1,61 @@
+.body-bg{
+    background:linear-gradient(to right, rgb(92, 92, 242), white);
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+  }
+  
+  .container{
+    display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      width:100%;
+  }
+    .form-box{
+        width:380px;
+        height:450px;
+        background-color:black;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        opacity:0.5;
+        border-radius:2%;
+    }
+  .header-form{
+    margin-bottom:15px;
+  }
+
+  .none-border-radius-right{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .buttonLogin{
+    margin-top:40px;
+    margin-bottom:10px;
+    padding:10px 40px;
+  }
+  .message{
+    display:flex;
+    justify-content:space-between
+  }
+  .social{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+  }
+  
+  .social i{
+    font-size:35px;
+  }
+  
+  .social i:hover{
+    color:red;
+    cursor:pointer;
+  }
+  .form-control:focus{
+    box-shadow: none;
+  }
